@@ -1,0 +1,38 @@
+{
+  "build": {
+    "beforeBuildCommand": "",
+    "beforeDevCommand": "",
+    "devPath": "../frontend",
+    "distDir": "../frontend/dist"
+  },
+  "package": {
+    "productName": "Repeat",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "bundle": {
+      "active": true,
+      "category": "Education",
+      "identifier": "com.5uru.repeat",
+      "icon": [
+        "icons/icon.icns"
+      ],
+      "targets": [
+        "dmg"
+      ]
+    },
+    "windows": [
+      {
+        "title": "Repeat",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": false
+    }
+  }
+}
